@@ -63,6 +63,8 @@ body {
 .heading-primary{
   color: #fff;
   text-transform: uppercase;
+  /* bface fixes shaking of animation for main & sub below rotates image or something.  */
+  backface-visibility: hidden;
 }
 .heading-primary-main{
   display: block;
@@ -71,14 +73,18 @@ body {
   letter-spacing: 35px;
 
   animation-name: moveInLeft;
-  animation-duration: 2s;
-  animation-delay: 2s;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  /* animation-iteration-count: 3; */
+  /* animation-delay: 2s; */
 }
 .heading-primary-sub{
   display: block;
   font-size: 20px;
   font-weight: 700;
   letter-spacing: 17.4px;
+
+  animation: moveInRight 1.5s ease-out;
 
 }
 @keyframes moveInLeft {
@@ -89,6 +95,22 @@ body {
   }
   80%{
     transform: translateX(20px);
+
+  }
+  100%{
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveInRight {
+  /* 0% what happens at beginning */
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  80%{
+    transform: translateX(-20px);
 
   }
   100%{
