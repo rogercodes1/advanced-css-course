@@ -11,4 +11,13 @@ Dark green: #28b485
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  /* updates so  borders and padding are not added to total with of specified of a box. This removes that behavior*/
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 16px;
+  line-height: 1.7;
+  color: #777;
 }
