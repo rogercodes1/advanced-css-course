@@ -26,4 +26,5 @@ body {
   height: 95vh;
   /* 95 percent of the viewport height */
   background-image: url(../img/hero.jpg);
+  background-size: cover;
 }
