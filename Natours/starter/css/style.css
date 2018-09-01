@@ -67,6 +67,7 @@ body {
   text-transform: uppercase;
   /* bface fixes shaking of animation for main & sub below rotates image or something.  */
   backface-visibility: hidden;
+  margin-bottom: 60px;
 }
 .heading-primary-main{
   display: block;
