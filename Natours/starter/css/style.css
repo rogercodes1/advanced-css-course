@@ -132,7 +132,10 @@ body {
   display: inline-block;
 
 }
-
+.btn:hover{
+  /* makes the button hover up 3px */
+  transform: translateY(-3px);
+}
 .btn-white{
   background-color: #fff;
   color: #777;
