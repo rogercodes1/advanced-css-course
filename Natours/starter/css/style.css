@@ -130,15 +130,19 @@ body {
   text-decoration: none;
   padding: 15px 40px;
   display: inline-block;
-
+  border-radius: 100px;
+  transition: all .2s;
 }
 .btn:hover{
   /* makes the button hover up 3px */
   transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0,0,0,.6)
 }
 /* the translateY is to the initial state/location, not to it's current location. Meaning if we hover it goes up 3px, then it would go down 2px bc it's to initial part.  */
 .btn:active{
   transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0,0,0,.2)
+
 }
 .btn-white{
   background-color: #fff;
