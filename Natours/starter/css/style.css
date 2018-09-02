@@ -186,3 +186,8 @@ body {
   animation: moveInBottom .5s ease-out .75;
   animation-fill-mode: backwards;
 }
+
+.btn-animated{
+  animation: moveInBottom .5s ease-out .75;
+  animation-fill-mode: backwards;
+}
