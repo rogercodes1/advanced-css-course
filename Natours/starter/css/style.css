@@ -132,6 +132,7 @@ body {
     transform: translate(0);
   }
 }
+
 /* pseudo class, style elements under special condition */
 .btn:link, .btn:visited{
   text-transform: uppercase;
@@ -142,6 +143,7 @@ body {
   transition: all .2s;
   position: relative;
 }
+
 .btn:hover{
   /* makes the button hover up 3px */
   transform: translateY(-3px);
