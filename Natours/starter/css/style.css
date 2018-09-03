@@ -145,7 +145,7 @@ body {
 .btn:hover{
   /* makes the button hover up 3px */
   transform: translateY(-3px);
-  box-shadow: 2px 10px 20px rgba(0,0,0,.6)
+  box-shadow: 2px 10px 20px rgba(0,0,0,.5)
 }
 /* the translateY is to the initial state/location, not to it's current location. Meaning if we hover it goes up 3px, then it would go down 2px bc it's to initial part.  */
 .btn:active{
