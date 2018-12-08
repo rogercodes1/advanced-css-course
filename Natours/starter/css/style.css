@@ -87,6 +87,7 @@ body {
   animation: moveInRight 1.5s ease-out;
 
 }
+
 @keyframes moveInLeft {
   /* 0% what happens at beginning */
   0% {
